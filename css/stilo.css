@@ -1,0 +1,335 @@
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #000;
+}
+*{
+    box-sizing: border-box;
+}
+p, h1, h2, h3,h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #f7f7f7;
+    margin: 6px;
+}
+/* ESTILOS PARA CABECER */
+#cajacabecera{
+    width: 100%;
+    background: linear-gradient(to right, #f30505, #eb7d7d);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#logo{
+    width: 20%;
+    padding: 6px 0;
+}
+/* MENU */
+.menu-icon {
+    height: 20px;      
+    width: auto;       
+    vertical-align: middle; 
+    margin-right: 5px; 
+}
+
+.menu{
+   width: 80%;
+}
+#btn-menu{
+    display: none;
+}
+#mmovil{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    text-align: right;
+    color: #edbc65;
+    padding: 6px;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 87px;
+    padding:  0 10px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu a i{
+    font-size: 20px;
+    
+}
+.menu a:hover{
+    color: #000000;
+    border-bottom: 2px solid #080808;
+}
+/* INICIO */
+.inicio{
+    background: #00000000;
+    height: 1004px;
+    position: relative;
+    padding-top: 150px;
+    overflow: hidden;
+    background-image: url("../css/ima/13106906_5139993.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.tren{
+    width: 50%;
+    height: auto;
+    display: block;
+    max-width: 929px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+#contenido-inicio{
+    width: 100%;  
+    max-width: 1100px;  
+    margin: auto; 
+    position: relative; 
+    text-align: center;  
+    padding: 20px 0
+}
+#contenido-inicio h2{
+    font-family: "Poppins", sans-serif;
+    color: #ff0000;
+    text-align: center;
+    display: block;
+    margin-top: 180px;
+}
+#contenido-inicio h2 .tit1{
+    display: block;
+    font-size: 44px;
+    margin: 0;
+}
+#contenido-inicio h2 .tit2{
+    display: block;
+    font-size: 40px;
+    margin: 0;
+}
+.scrolldown{
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    cursor: pointer;
+}
+/* que hacemos */
+.quehacemos{
+    background: #adadad url(../css/ima/) no-repeat bottom;
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+
+}
+.contenidos{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+.cajatitulos{
+    border-bottom: 4px solid #ffffff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.cajatitulos h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(158, 151, 151);
+    margin: 0;
+}
+.cajatitulos h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.cajacolumnas{
+    display: flex;
+    
+}
+.colummnas{
+    
+    padding: 0 2%;
+}
+.colummnas h2{
+    font-family:  "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    color: #c4c4c4;
+}
+.colummnas img{
+    display: block;
+    margin: auto;
+}
+.colummnas p{
+    font-size: 13px;
+    text-align: center;
+    color: #555555;
+}
+/* que ofrecemos */
+.queofrecemos{
+    background: #837d73;
+    position: relative;
+    padding-top: 150px;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+.cajatitulososcuro{
+    width: 100%;
+    margin: auto;
+    border-bottom: 4px solid #fffffe;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.cajatitulososcuro h2{
+    text-align: center;
+    font-family: Arial, "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+.cajatitulososcuro h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    color: #ffffff;
+}
+.servicios{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.servicios h2{
+    display: block;
+    background: #38332b;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-family: Georgia, 'Poppins', serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+    border-radius: 6px 6px 0 0;
+
+}
+.servicios img{
+    border-radius: 6px 6px 6px 6px ;
+
+}
+.servicios li{
+    margin-right: 0.5%;
+}
+/* ESTILOS PARA 1024 */
+@media only screen and (max-width:1024px){
+    .nave{
+        left: 10%;
+    }
+    .tren{
+        right: -50%;
+    }
+}
+
+/*Estilo para pie */
+#piepagina {
+    width: 100%;
+    background: linear-gradient(to right, #f30505, #eb7d7d);
+    position: fixed; /* Mantiene el footer siempre visible en la parte inferior */
+    bottom: 0;       /* Ubica el footer en la parte más baja de la pantalla */
+    z-index: 999;
+    left: 0;         /* Asegura que el footer se extienda a lo largo de toda la pantalla */
+}
+
+#datos-pie {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between; /* Alinea contenido a los extremos */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin: auto;
+    padding: 10px 20px; /* Espacio interno */
+}
+
+.nombre-empresa {
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.redes-sociales a {
+    color: white;
+    margin: 0 10px;
+    font-size: 50px; /* Tamaño de los íconos */
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    color: #dddddd; /* Cambio de color al pasar el mouse */
+}
+
+
+/* ESTILO PARA 800 */
+@media only screen and (max-width:800px){
+    #cabecera{
+        flex-direction: column;
+    }
+    #logo{
+        width: 100%;
+    }
+    #logo img{
+        display: block;
+        margin: auto;
+    }
+    .menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+    }
+    #mmovil{
+        display: block;
+    }
+    .menu ul{
+        flex-direction: column;
+        background: #ffffff;
+    }
+    .menu a{
+        line-height: 45px;
+        padding: 0 20px;
+        border-bottom: 1px solid #ffffff;
+        color: #ffffff;
+    }
+    .menu a:hover{
+        border-bottom: 1px solid #cacaca;
+        background: #fffffe;
+    }
+    #btn-menu:checked ~ .menu{
+        transform: translateX(0%);
+    }
+}
