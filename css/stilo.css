@@ -283,7 +283,7 @@ p, h1, h2, h3,h4{
 .redes-sociales a {
     color: white;
     margin: 0 10px;
-    font-size: 50px; /* Tamaño de los íconos */
+    font-size: 20px; /* Tamaño de los íconos */
     text-decoration: none;
 }
 
