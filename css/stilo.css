@@ -79,7 +79,7 @@ p, h1, h2, h3,h4{
     
 }
 .menu a:hover{
-    color: #000000;
+    color: #a09c9c;
     border-bottom: 2px solid #080808;
 }
 /* INICIO */
@@ -110,12 +110,19 @@ p, h1, h2, h3,h4{
     text-align: center;  
     padding: 20px 0
 }
-#contenido-inicio h2{
-    font-family: "Poppins", sans-serif;
-    color: #ff0000;
-    text-align: center;
+#contenido-inicio h2{  
     display: block;
-    margin-top: 180px;
+    background: linear-gradient(to right, #f30505, #eb7d7d); /* Degradado de ejemplo */
+    text-align: center;
+    line-height: 40px;
+    color: transparent; /* Configurar el color del texto como transparente para ver el degradado */
+    -webkit-background-clip: text; /* Limita el fondo al texto para WebKit */
+    background-clip: text; /* Limita el fondo al texto */
+    font-family: Georgia, 'Poppins', serif;
+    font-size: 20px;
+    font-weight: bold; /* Cambiado de 200 a bold para negrita */
+    margin: 0;
+    border-radius: 6px 6px 0 0; 
 }
 #contenido-inicio h2 .tit1{
     display: block;
@@ -154,11 +161,18 @@ p, h1, h2, h3,h4{
     padding: 10px 0;
     margin-bottom: 20px;
 }
-.cajatitulos h2{
+.cajatitulos h2{    display: block;
+    background: linear-gradient(to right, #f30505, #eb7d7d); /* Degradado de ejemplo */
     text-align: center;
-    font-size: 50px;
-    color: rgb(158, 151, 151);
+    line-height: 40px;
+    color: transparent; /* Configurar el color del texto como transparente para ver el degradado */
+    -webkit-background-clip: text; /* Limita el fondo al texto para WebKit */
+    background-clip: text; /* Limita el fondo al texto */
+    font-family: Georgia, 'Poppins', serif;
+    font-size: 20px;
+    font-weight: bold;
     margin: 0;
+    border-radius: 6px 6px 0 0;
 }
 .cajatitulos h3{
     text-align: center;
@@ -174,11 +188,18 @@ p, h1, h2, h3,h4{
     padding: 0 2%;
 }
 .colummnas h2{
-    font-family:  "Poppins", sans-serif;
-    font-size: 26px;
-    font-weight: normal;
+    display: block;
+    background: linear-gradient(to right, #f30505, #eb7d7d); /* Degradado de ejemplo */
     text-align: center;
-    color: #c4c4c4;
+    line-height: 40px;
+    color: transparent; /* Configurar el color del texto como transparente para ver el degradado */
+    -webkit-background-clip: text; /* Limita el fondo al texto para WebKit */
+    background-clip: text; /* Limita el fondo al texto */
+    font-family: Georgia, 'Poppins', serif;
+    font-size: 20px;
+    font-weight: bold; /* Cambiado de 200 a bold para negrita */
+    margin: 0;
+    border-radius: 6px 6px 0 0;
 }
 .colummnas img{
     display: block;
@@ -200,7 +221,6 @@ p, h1, h2, h3,h4{
 .cajatitulososcuro{
     width: 100%;
     margin: auto;
-    border-bottom: 4px solid #fffffe;
     padding: 10px 0;
     margin-bottom: 20px;
 }
@@ -226,16 +246,17 @@ p, h1, h2, h3,h4{
 }
 .servicios h2{
     display: block;
-    background: #38332b;
+    background: linear-gradient(to right, #f30505, #eb7d7d); /* Degradado de ejemplo */
     text-align: center;
     line-height: 40px;
-    color: #ffffff;
+    color: transparent; /* Configurar el color del texto como transparente para ver el degradado */
+    -webkit-background-clip: text; /* Limita el fondo al texto para WebKit */
+    background-clip: text; /* Limita el fondo al texto */
     font-family: Georgia, 'Poppins', serif;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: bold; /* Cambiado de 200 a bold para negrita */
     margin: 0;
     border-radius: 6px 6px 0 0;
-
 }
 .servicios img{
     border-radius: 6px 6px 6px 6px ;
